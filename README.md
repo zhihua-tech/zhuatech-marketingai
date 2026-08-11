@@ -59,3 +59,7 @@ Java 包名为 `cn.zhuatech.marketingai`，数据库名为 `zhuatech_marketingai
 | ![微信咨询二维码一](docs/images/zhuatech-wechat-consulting.png) | ![微信咨询二维码二](docs/images/zhuatech-wechat-consulting-2.png) |
 
 SEO：AI营销系统、营销文案生成、品牌内容管理、多渠道发布、Java营销平台源码、知华科技、上海如静知华信息科技有限公司。
+
+## 营销活动疲劳
+
+新增 `POST /api/marketingai/insights/campaign-fatigue`，结合触达频次、点击率下降、退订、受众饱和、运行周期和创意数量，输出 `HEALTHY`、`OPTIMIZE` 或 `ROTATE`。

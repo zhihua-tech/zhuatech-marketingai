@@ -1,0 +1,3 @@
+/* Copyright 2026 上海如静知华信息科技有限公司 */
+package cn.zhuatech.marketingai.controller;import cn.zhuatech.marketingai.common.ApiResponse;import cn.zhuatech.marketingai.service.CampaignFatigueService;import jakarta.validation.Valid;import org.springframework.web.bind.annotation.*;
+@RestController @RequestMapping("/api/marketingai/insights/campaign-fatigue") public class CampaignFatigueController{private final CampaignFatigueService service;public CampaignFatigueController(CampaignFatigueService service){this.service=service;}@PostMapping ApiResponse<CampaignFatigueService.Result> evaluate(@Valid @RequestBody CampaignFatigueService.Request r){return ApiResponse.ok(service.evaluate(r));}}
