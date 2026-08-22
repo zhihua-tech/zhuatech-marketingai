@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'MARKETINGAI',systemName:'知华 AI 营销内容平台',englishName:'MARKETING CONTENT STUDIO',theme:{primary:'#7b4768',dark:'#392738',accent:'#c18a4b',},
  workspace:'品牌市场中心 / 内容运营部',fieldWorkspace:'增长内容组',period:'2026-08-04 · 实时运营',liveText:'运营数据于 10:36 更新',fieldContextLabel:'当前工作周期',fieldContext:'八月第一周',fieldUser:'夏语',fieldRole:'内容策划',adminUser:'唐沐',adminRole:'营销运营负责人',

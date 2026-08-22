@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.marketingai.service;
 import cn.zhuatech.marketingai.common.BusinessException; import cn.zhuatech.marketingai.dto.MarketingAiDto.*; import cn.zhuatech.marketingai.model.*; import cn.zhuatech.marketingai.repository.*; import org.springframework.stereotype.Service; import org.springframework.transaction.annotation.Transactional; import java.util.*;
 @Service @Transactional(readOnly=true) public class MarketingAiService {

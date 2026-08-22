@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.marketingai.model;
 import jakarta.persistence.*;
 @Entity @Table(name="marketingai_operating_unit") public class OperatingUnit extends BaseEntity {
