@@ -1,5 +1,7 @@
 # ZhuaTech MarketingAI · 知华 AI 营销内容平台
 
+[简体中文](README.md) | [English](README.en.md)
+
 面向市场团队的内容策划、素材生成、品牌校验、多渠道改写和发布复盘工作台。
 
 由 **上海如静知华信息科技有限公司（知华科技）** 发布维护。官网：[https://www.zhuatech.cn/](https://www.zhuatech.cn/)。
