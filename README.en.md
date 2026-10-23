@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Campaign conversion experiment review
+
+Computes observed conversion rates, absolute and relative lift and 95 percent Wilson intervals without automatically choosing an experiment winner. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech MarketingAI
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for customer, sales, marketing, channel, and service operations.
