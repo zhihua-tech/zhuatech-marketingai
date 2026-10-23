@@ -1,0 +1,97 @@
+{
+  "slug": "marketingai",
+  "title": "对照基线增量转化与净回报",
+  "fields": [
+    {
+      "key": "id",
+      "label": "记录编号",
+      "type": "ID"
+    },
+    {
+      "key": "testUsers",
+      "label": "实验组用户",
+      "type": "NUMBER",
+      "scale": 0,
+      "min": "1",
+      "max": "1000000"
+    },
+    {
+      "key": "testConversions",
+      "label": "实验组转化",
+      "type": "NUMBER",
+      "scale": 0,
+      "min": "0",
+      "max": "1000000"
+    },
+    {
+      "key": "controlUsers",
+      "label": "对照组用户",
+      "type": "NUMBER",
+      "scale": 0,
+      "min": "1",
+      "max": "1000000"
+    },
+    {
+      "key": "controlConversions",
+      "label": "对照组转化",
+      "type": "NUMBER",
+      "scale": 0,
+      "min": "0",
+      "max": "1000000"
+    },
+    {
+      "key": "marginPerConversion",
+      "label": "每转化贡献元",
+      "type": "NUMBER",
+      "scale": 2,
+      "min": "0",
+      "max": "1000000000000"
+    },
+    {
+      "key": "incrementalSpend",
+      "label": "增量营销费用元",
+      "type": "NUMBER",
+      "scale": 2,
+      "min": "0",
+      "max": "1000000000000"
+    }
+  ],
+  "columns": [
+    {
+      "key": "baselineConversions",
+      "label": "对照投射基线转化"
+    },
+    {
+      "key": "incrementalConversions",
+      "label": "估算增量转化"
+    },
+    {
+      "key": "netContribution",
+      "label": "增量净贡献元"
+    },
+    {
+      "key": "costPerIncremental",
+      "label": "每增量转化成本元"
+    }
+  ],
+  "description": "按对照组转化率投射实验组基线，核算增量转化、每增量转化成本和净贡献。描述性估算，不把差异当统计显著或因果证明。",
+  "owner": "上海如静知华信息科技有限公司",
+  "website": "https://www.zhuatech.cn/",
+  "authorization": "商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。",
+  "version": 1,
+  "notes": "输入均须为已获授权的同口径数据。金额固定人民币元；比例为百分数。核算结果只用于复核，未审批、未写库、未发起外部调用，也未触发付款、签名、资料销毁或设备控制。建议不构成法律、安全、会计或碳核证结论。",
+  "sample": {
+    "asOf": "2026-10-24",
+    "records": [
+      {
+        "id": "ITEM-001",
+        "testUsers": "1000",
+        "testConversions": "120",
+        "controlUsers": "500",
+        "controlConversions": "50",
+        "marginPerConversion": "100",
+        "incrementalSpend": "1500"
+      }
+    ]
+  }
+}

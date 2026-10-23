@@ -1,0 +1,77 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "incrementalConversions": "#20",
+      "netContribution": "#500",
+      "costPerIncremental": "#75"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "testConversions": "100"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "costPerIncremental": "N/A"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "incrementalSpend": "2000"
+    },
+    "expected": {
+      "decision": "PASS",
+      "netContribution": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "incrementalSpend": "2000.01"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "testConversions": "1001"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "controlUsers": "0"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "controlConversions": "501"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "testUsers": "1",
+      "testConversions": "1",
+      "controlUsers": "3",
+      "controlConversions": "1",
+      "marginPerConversion": "1000000000000",
+      "incrementalSpend": "0"
+    },
+    "expected": {
+      "decision": "PASS",
+      "netContribution": "#666666666666.67"
+    },
+    "error": false
+  }
+]
